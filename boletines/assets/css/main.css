@@ -74,3 +74,21 @@ h6 {
 #__next {
     isolation: isolate;
 }
+
+p {
+    color: red;
+}
+
+.red {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+#boton-pago {
+    background-color: yellow;
+}
+
+.texto-blanco {
+    color: white;
+}
