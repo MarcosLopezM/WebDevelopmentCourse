@@ -100,6 +100,10 @@ h6 {
   /* overflow: auto; */
 }
 
+.fa-star {
+  color: #ffe51e;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -133,4 +137,8 @@ a {
 
 td img {
   text-align: center;
+}
+
+.table tr:nth-child(even){
+  background-color: #fbfcf8;
 }
