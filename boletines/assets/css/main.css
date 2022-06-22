@@ -92,24 +92,26 @@ h6 {
 }
 
 .content {
+  border-radius: 5px;
   max-width: 960px;
   max-height: 500px;
   width: 100%;
   height: 100%;
   background-color: #fff;
-  /* overflow: auto; */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .fa-star {
   color: #ffe51e;
 }
 
-header {
+header h1{
   position: sticky;
   top: 0;
 }
 
 .scroller {
+  border-radius: 5px;
   height: 90%;
   overflow: scroll;
 }
@@ -141,4 +143,9 @@ td img {
 
 .table tr:nth-child(even){
   background-color: #fbfcf8;
+}
+
+.title-item {
+  border-bottom: 2px solid #90b4ce;
+  padding: 1em;
 }
