@@ -88,7 +88,6 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* position: relative; */
 }
 
 .content {
@@ -99,6 +98,27 @@ h6 {
   height: 100%;
   background-color: #fff;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: relative;
+}
+
+.actions {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.close {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  color: white;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .fa-star {
@@ -147,5 +167,14 @@ td img {
 
 .title-item {
   border-bottom: 2px solid #90b4ce;
-  padding: 1em;
+  padding: 1em 0 1em;
 }
+
+.position{
+  background-color: #90b4ce;
+  padding: 10px;
+}
+
+/* .paragraph {
+  padding: 20px;
+} */
