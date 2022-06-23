@@ -10,5 +10,9 @@ links.forEach(link => {
 
         content.classList.add("animate__animated");
         content.classList.add("animate__rotateOut");
+
+        setTimeout(() => {
+            location.href = "/boletines/";
+        }, 500)
     });
 });
