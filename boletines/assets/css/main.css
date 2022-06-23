@@ -121,6 +121,11 @@ h6 {
   justify-content: center;
 }
 
+.close:active {
+  scale: 0.8;
+  color: #ff8ba7;
+}
+
 .fa-star {
   color: #ffe51e;
 }
@@ -128,17 +133,22 @@ h6 {
 header h1{
   position: sticky;
   top: 0;
+  text-align: center;
 }
 
 .scroller {
   border-radius: 5px;
   height: 90%;
   overflow: scroll;
+  padding: 1.8rem;
 }
 
 a {
   text-decoration: none;
   color: var(--background-color);
+}
+a:hover {
+  color: #a786df;
 }
 
 .table {
@@ -167,14 +177,33 @@ td img {
 
 .title-item {
   border-bottom: 2px solid #90b4ce;
-  padding: 1em 0 1em;
+  padding-top: .5em;
+  padding-bottom: .5em; 
+  font-size: 2em;
+  margin: 0 0.5em;
 }
 
 .position{
   background-color: #90b4ce;
   padding: 10px;
+  margin: 0 0.5em;
+  border-radius: 4px;
 }
 
-/* .paragraph {
-  padding: 20px;
-} */
+.movie {
+  height: 420px;
+  padding: .5em;
+  float: left;
+  margin-right: 1em;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph {
+  padding-right: 1em;
+  font-size: 18px;
+}
