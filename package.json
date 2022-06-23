@@ -1,0 +1,22 @@
+{
+  "name": "professionalwebdevelopmentcourse",
+  "version": "1.0.0",
+  "description": "Professional Web Development Course from CódigoFacilito",
+  "main": "index.js",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosLopezM/WebDevelopmentCourse.git"
+  },
+  "author": "MarcosLopezM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcosLopezM/WebDevelopmentCourse/issues"
+  },
+  "homepage": "https://github.com/MarcosLopezM/WebDevelopmentCourse#readme"
+}
